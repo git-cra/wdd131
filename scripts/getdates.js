@@ -1,8 +1,9 @@
-const lastmodifiedelement = document.getelementbyid("lastmodified");
-const currentyearelement = document.getelementbyid("year");
+const lastModifiedElement = document.getElementById("lastModified");
+const currentYearElement = document.getElementById("year");
 
-const currentyear = new date().getfullyear();
-currentyearelement.textcontent = ` ${currentyear} Tim Crager, WI`;
 
-const lastmodifieddate = document.lastmodified;
-lastmodifiedelement.textContent = `Last Modified: ${lastmodifieddate}`;
+const currentYear = new Date().getFullYear();
+currentYearElement.textContent = `© ${currentYear} Tim Crager, WI`;
+
+const lastModifiedDate = document.lastModified;
+lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
