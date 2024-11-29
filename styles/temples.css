@@ -9,7 +9,6 @@
 
 body {
     width: 100%;
-
 }
 
 h1 {
@@ -17,23 +16,19 @@ h1 {
 }
 
 header {
-
     align-items: center;
     padding: 1rem;
     justify-content: space-between;
     background-color:#2C4A66;
     color: #eeeff0;
     height: 6rem;
-
 }
 
 .active {
-
     background-color: rgb(224, 224, 224);
     color: black;
     border-radius: 6px;
     padding: 0.2rem;
-
 }
 
 .navList {
@@ -45,8 +40,6 @@ header {
     padding: 25px 0;
     list-style-type: none;
     font-size: 1.2rem;
-
-
 }
 
 a {
@@ -55,7 +48,6 @@ a {
 
 nav {
     text-align: center;
-
 }
 
 #menu {
@@ -66,9 +58,6 @@ nav {
     right: 2rem;
     font-size: 1.5em;
     color: black;
-
-
-
 }
 
 .navList a:hover {
@@ -91,7 +80,6 @@ nav {
     top: 5rem;
     right: 0.2rem;
     z-index: 1000;
-
 }
 
 img {
@@ -103,8 +91,6 @@ main {
     color: #eeeff0;
     padding: 1rem;
     align-items: center;
-
-
 }
 
 .gallery {
@@ -137,6 +123,4 @@ footer {
     position:absolute;
       width:100%;
       bottom:0px;
-
-
 }
