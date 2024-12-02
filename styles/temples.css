@@ -80,12 +80,17 @@ nav {
     z-index: 1000;
 }
 
+img:hover{
+    box-shadow: 0 0 50px #333;
+    border: 2px solid rgb(0, 0, 0);
+}
+
 img {
     max-width: 100%;
 }
 
 main {
-    background-color: #080808;
+    background-color: #746d40;
     color: #eeeff0;
     padding: 1rem;
     align-items: center;
