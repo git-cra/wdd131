@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Display">
+    <meta name="author" content="Timothy Crager">
+    <title>Weather Display - Wisconsin</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Wisconsin</h1>
+    </header>
+
+    <main>        
+        <div class="location">
+            <picture>
+                <source srcset="images/hydesmill.webp" media="(min-width: 700px)">
+                <img src="images/badgerwinter.webp" alt="Wisconsin" loading="lazy" class="image">
+            </picture>
+            <div class="overlay">
+              <section class ="weather">
+                  <h2>Weather<img src="images/weathermob.svg" alt="Weather Icon"></h2>
+                  <p>Temperature: <span id="temperature">8°C</span></p>
+                  <p>Wind Speed: <span id="windSpeed">10 km/h</span></p>
+                  <p>Wind Chill: <span id="windChill">Calculating...</span></p>
+              </section> 
+            </div>
+            <div class="data">
+              <h2>Data</h2>
+                  <p><b>Area:</b> 65,496 miles<sup>2</sup></p>
+                  <p><b>Population:</b> 5,910,955</p>
+                  <p><b>Capital:</b> Madison</p>
+                  <p><b>Official Languages:</b> English</p>
+                  <p><b>Currency:</b> US Dollars</p>
+                  <p><b>Time Zone:</b> UTC/GMT -6 Hours</p>
+                  <p><b>Code:</b> +1</p>
+                  <p><b>Internet TLD:</b> .us</p>
+            </div>
+            </div>
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+
+
+
+</html>
