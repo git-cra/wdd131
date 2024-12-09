@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "andika";
+    text-decoration: none;
+
+}
+
+body {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+header {
+
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: rgb(234, 247, 216);
+    height: 6rem;
+
+}
+
+.active {
+
+    background-color: rgb(224, 224, 224);
+    color: black;
+    border-radius: 6px;
+    padding: 0.2rem;
+
+}
+
+.navList {
+    display: none;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    list-style-type: none;
+    background-color: rgb(150, 165, 147);
+    font-size: 1.2rem;
+
+
+}
+
+a {
+    color: rgb(12, 12, 12);
+}
+
+nav {
+    text-align: center;
+
+}
+
+#menu {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.5em;
+    color: black;
+
+
+
+}
+
+.navList a:hover {
+    text-decoration: underline;
+    border-radius: 6px;
+    padding: 0.2rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+.show {
+    display: block;
+}
+
+#menu.show::before {
+    content: "❎";
+    position: absolute;
+    top: 5rem;
+    right: 0.2rem;
+    z-index: 1000;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    background-color: rgb(235, 235, 235);
+    padding: 1rem;
+    align-items: center;
+
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery figure {
+    background-color: rgb(227, 228, 227);
+    box-shadow: 0 0px 80px rgb(157, 160, 156);
+    padding: 1rem;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+footer {
+    text-align: center;
+    background: rgb(211, 231, 183);
+    color: rgb(1, 7, 1);
+    padding: 45px 10px;
+    font-size: 1em;
+
+
+}
