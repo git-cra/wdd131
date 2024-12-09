@@ -116,7 +116,7 @@ textarea{
     min-height: 80px;
 }
 input[type="submit"]{
-    padding: 2.5vmax; /* Slightly larger button padding */
+    padding: 2.5vmax;
     background-color: var(--secondary-color);
     color: var(--text-color-dark);
     font-weight: bold;
@@ -124,9 +124,9 @@ input[type="submit"]{
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    margin: auto; /* Center the button horizontally */
-    display: block; /* Make the button a block element */
-    width: 93%; /* Adjust the width to fit the content */
+    margin: auto;
+    display: block;
+    width: 93%;
     font-size: 1.4rem;
 }
 footer{
