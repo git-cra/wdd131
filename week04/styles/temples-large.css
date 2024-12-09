@@ -1,0 +1,50 @@
+@media only screen and (min-width: 600px) {
+
+    header {
+
+        display: flex;
+        font-size: larger;
+    }
+
+    .navList {
+        display: flex;
+        position: static;
+        padding: 1rem;
+        background-color: rgb(150, 165, 147);
+        border-radius: 6px;
+
+    }
+
+    li {
+        margin: 0 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+    }
+
+    #menu {
+        display: none;
+
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+    }
+
+    .gallery nameImg {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        font-size: 1.4em;
+    }
+
+}
