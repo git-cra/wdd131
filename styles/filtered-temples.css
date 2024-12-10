@@ -99,7 +99,7 @@ img {
 }
 
 main {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0);
     padding: 1rem;
     align-items: center;
 
@@ -130,8 +130,8 @@ h2 {
 
 footer {
     text-align: center;
-    background: rgb(211, 231, 183);
-    color: rgb(1, 7, 1);
+    background: rgb(0, 0, 0);
+    color: rgb(253, 254, 253);
     padding: 45px 10px;
     font-size: 1em;
 
