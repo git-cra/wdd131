@@ -1,9 +1,9 @@
 :root{
     --primary-color: #EFF7FF;
-    --secondary-color: #231123;
-    --accent-color-1: #82204A;
+    --secondary-color: #000000;
+    --accent-color-1: #222082;
     --accent-color-2: #558C8C;
-    --accent-color-3: #E8DB7D;
+    --accent-color-3: #00f0c0;
     --text-color-dark: #fff;
     --text-color-light: #000;
 }
@@ -23,7 +23,7 @@ header {
     text-align: center;
 }
 main{
-margin: 10px;
+background-color: #222082;
 }
 .container{
     max-width: 600px;
