@@ -28,8 +28,8 @@ header {
 
 .active {
 
-    background-color: rgb(224, 224, 224);
-    color: black;
+    background-color: rgb(149, 147, 150);
+    color: rgb(250, 247, 247);
     border-radius: 6px;
     padding: 0.2rem;
 
@@ -43,7 +43,7 @@ header {
     width: 100%;
     padding: 25px 0;
     list-style-type: none;
-    background-color: rgb(150, 165, 147);
+    background-color: rgb(72, 56, 210);
     font-size: 1.2rem;
 
 
