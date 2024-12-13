@@ -1,0 +1,16 @@
+/*4. Color Schema
+Dark mode schema with dark blues, blacks, and cyan as an accent color
+
+5. Typography
+Times New roman*/
+:root{
+    --primary-color: #080808;
+    --secondary-color: #020863;
+    --accent-color-1: #2d29f3;
+    --accent-color-2: #2af8e3;
+    --text-color-dark: #fff;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
