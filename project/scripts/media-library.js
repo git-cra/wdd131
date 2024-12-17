@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () =>{
           name: "DVD",
         }
       ];
-    const productSelect = document.getElementById("pl")
+    const productSelect = document.getElementById("type")
     products.forEach(product => {
         const option = document.createElement("option");
         option.value = product.id;
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
         mediaObject.editions = checkedEditions.map(e=>e.value)
 
-        localStorage.setItem(mediaNameValue, mediaObject);
+        localStorage.setItem(mediaNameValue, JSON.stringify(mediaObject));
         alert(`Saved Request by name ${mediaNameValue}`);
     }
 })
