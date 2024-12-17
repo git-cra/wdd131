@@ -29,7 +29,7 @@
             <form method="get" action="review.html">
                 <div class="group">
                     <label class="question">Type of Media</label>
-                    <select name="product" id="pl" required>
+                    <select name="product" id="type" required>
                         <option value="">Please Select</option>
                     </select>
                 </div>
@@ -47,19 +47,19 @@
                 </div>
                 <div class="group">
                     <label class="question">Name of media</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="media" id="media">
                 </div>
                 <fieldset class="group">
                     <label class="question">What editions are acceptable? (Check all that apply)</label>
-                    <label><input type="checkbox" id="use" name="check" value="used">Used</label>
-                    <label><input type="checkbox" id="new" name="check" value="new">New</label>
-                    <label><input type="checkbox" id="nor" name="check" value="normal">Normal</label>
-                    <label><input type="checkbox" id="enh" name="check" value="enhanced">Enhanced</label>
-                    <label><input type="checkbox" id="col" name="check" value="collectors">Collector's</label>                    
+                    <label><input type="checkbox" id="use" name="edition" value="used">Used</label>
+                    <label><input type="checkbox" id="new" name="edition" value="new">New</label>
+                    <label><input type="checkbox" id="nor" name="edition" value="normal">Normal</label>
+                    <label><input type="checkbox" id="enh" name="edition" value="enhanced">Enhanced</label>
+                    <label><input type="checkbox" id="col" name="edition" value="collectors">Collector's</label>                    
                 </fieldset>
                 <div class="group">
                     <label class="question">Release year (Optional)</label>
-                    <input type="text" name="name" id="relyear">
+                    <input type="text" name="relyear" id="relyear">
                 </div>
                 <div class="group">
                     <label class="question">Person requesting media (Optional)</label>
