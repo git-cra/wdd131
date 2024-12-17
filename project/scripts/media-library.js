@@ -10,23 +10,23 @@ lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
 document.addEventListener("DOMContentLoaded", () =>{
     const products = [
         {
-          id: "fc-1888",
+          id: "bluray",
           name: "Blu-Ray",
         },
         {
-        id: "jj-1969",
+        id: "book",
         name: "Book",
         },
         {
-          id: "ac-2000",
+          id: "cd",
           name: "CD",
         },
         {
-          id: "fc-2050",
+          id: "digital",
           name: "Digital",
         },
         {
-          id: "fs-1987",
+          id: "dvd",
           name: "DVD",
         }
       ];
@@ -61,6 +61,6 @@ document.addEventListener("DOMContentLoaded", () =>{
         mediaObject.editions = checkedEditions.map(e=>e.value)
 
         localStorage.setItem(mediaNameValue, JSON.stringify(mediaObject));
-        alert(`Saved Request by name ${mediaNameValue}`);
+        alert(`Saved Request for ${mediaNameValue}`);
     }
 })
