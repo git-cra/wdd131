@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", () =>{
           averagerating: 5.0
         }
       ];
+
+      Object.values(localStorage)  
     const productSelect = document.getElementById("pl")
     products.forEach(product => {
         const option = document.createElement("option");
@@ -53,3 +55,5 @@ document.addEventListener("DOMContentLoaded", () =>{
         window.location.href = "review.html";
     }
 })
+save to storage using variable
+on submit load from local storage recalling variable

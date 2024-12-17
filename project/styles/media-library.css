@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #EFF7FF;
+    --primary-color: #b0b7be;
     --secondary-color: #000000;
     --accent-color-1: #222082;
     --accent-color-2: #558C8C;
@@ -38,8 +38,10 @@ header nav a {
     justify-content: space-between;
     padding:10px;
 }
+
 main{
-background-color: #222082;
+background-color: #01003c;
+
 }
 .container{
     max-width: 600px;
@@ -48,34 +50,41 @@ background-color: #222082;
     padding-bottom: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 h1{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 25px;   
     font-size: 1.8rem;
 }
+
 form{
     background-color: var(--primary-color);
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 20px;
 }
+
 .group{
     border-radius: 20px;
     padding: 25px;
 }
+
 label{
     display: block;
     margin-bottom: 8px;
 }
+
 .question{
     font-weight: bold;
 }
-input[type="text"], input[type="date"], select, textarea{
+
+input[type="text"], select, textarea{
     width: 100%;
     padding: 10px;
     border: 1px solid var(--accent-color-3);
     border-radius: 4px;
 }
+
 input[type="radio"], input[type="checkbox"]{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,28 +92,33 @@ input[type="radio"], input[type="checkbox"]{
     height: 20px;
     margin-right: -1px;
 }
+
 .rating, fieldset label{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
 }
+
 .rating{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 }
+
 input[type="radio"] {
 	display: none;
 	position: relative;
 	caret-color: rgba(0, 0, 0, 0);
 }
+
 .stars{
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
 }
+
 .stars > label{
     color: var(--text-color-light);
     width: 30px;
@@ -115,22 +129,28 @@ input[type="radio"] {
     align-items: center;
     caret-color: rgba(0,0,0,0);
 }
+
 .stars > label:hover{
     color: var(--secondary-color);
 }
+
 .stars > label::before{
     content: "\2606";
 }
+
 .stars input:checked ~ label::before{
     content: "\2605";
 }
+
 fieldset{
     border: none;
     padding: 10px;
 }
+
 textarea{
     min-height: 80px;
 }
+
 input[type="submit"]{
     padding: 2.5vmax;
     background-color: var(--secondary-color);
@@ -145,6 +165,7 @@ input[type="submit"]{
     width: 93%;
     font-size: 1.4rem;
 }
+
 footer{
     background-color: var(--secondary-color);
     color: var(--text-color-dark);
