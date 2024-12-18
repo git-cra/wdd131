@@ -45,8 +45,6 @@ header nav a {
     padding:10px;
 }
 
-
-
 main {
     display: inline-block;
     justify-content: space-around;
@@ -72,12 +70,15 @@ main {
  
   
  footer {
-    background-color: #2C4A66;
-    color: white;
+    width: 100%;
+    background-color: #000000;
+    color: rgb(198, 198, 201);
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
- }
+    position: fixed;
+    bottom: 15%;
+}
  
  footer p {
     margin: 5px;

@@ -1,11 +1,5 @@
 @media only screen and (min-width: 600px) {
 
-    header {
-
-        display: flex;
-        font-size: larger;
-    }
-
     .navList {
         display: flex;
         position: static;
@@ -30,16 +24,6 @@
         margin-top: 2rem;
         margin-bottom: 3rem;
 
-    }
-
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-
-    }
-
-    .gallery nameImg {
-        font-size: 1.3em;
-        font-family: Arial, Helvetica, sans-serif;
     }
 
     footer {

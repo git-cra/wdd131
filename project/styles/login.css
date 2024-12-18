@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #b0b9c2;
+    --primary-color: #aec5da;
     --secondary-color: #000000;
     --accent-color-1: #222082;
     --accent-color-2: #558C8C;
@@ -17,6 +17,7 @@
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    background: #7b7b7b;
 }
 
 header {
@@ -42,16 +43,13 @@ header nav a {
     padding:10px;
 }
 
-main{
-background-color: #010055;
-}
-
 .container{
+    background-color: var(--primary-color);
+    padding-top: 40px;
     max-width: 600px;
-    border-radius: 20px;
+    border-radius: 25px;
+    border: 2px solid #000000;
     margin: auto;
-    padding-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 h1{
@@ -61,9 +59,7 @@ h1{
 }
 
 form{
-    background-color: var(--primary-color);
-    margin-bottom: 20px;
-    border-radius: 20px;
+    
     padding: 20px;
 }
 
@@ -92,7 +88,7 @@ input[type="text"]{
 input[type="submit"]{
     padding: 2.5vmax;
     background-color: var(--secondary-color);
-    color: var(--text-color-dark);
+    color: rgb(198, 198, 201);
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -106,6 +102,9 @@ input[type="submit"]{
 
 footer{
     background-color: var(--secondary-color);
-    color: var(--text-color-dark);
+    color: rgb(198, 198, 201);
     text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
