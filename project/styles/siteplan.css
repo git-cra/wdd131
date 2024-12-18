@@ -10,7 +10,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
 body {
     width: 100%;
     height: 100vh;
@@ -25,7 +24,6 @@ body {
 header {
     background: rgb(0, 0, 0);
     padding: 1rem;
-    grid-column: 1 / 5;
     color: rgb(198, 198, 201);
     font-family: "Tinos", serif;
     text-align: center;
