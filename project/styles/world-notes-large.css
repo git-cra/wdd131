@@ -1,0 +1,29 @@
+@media only screen and (min-width: 600px) {
+
+    #menu {
+        display: none;
+
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+    }
+
+    .gallery nameImg {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        font-size: 1.4em;
+    }
+
+}
